@@ -264,7 +264,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        print('\nWould you like to do now? Choose one of the following options: \n')
+        print('\nWhat would you like to do now? Choose one of the following options: \n')
         print('n:\tNew analysis')
         print('i:\tInspect (prefiltered) raw data')
         print('e:\tExit')
