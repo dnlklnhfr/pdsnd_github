@@ -31,7 +31,7 @@ days   = { 'mo': 'Monday',
          }
 exit_command = 'exit'
 exit_message = '\nExiting script ...\n\nByebye, see you next time ;)'
-divider = 40*'-'+'\n'
+divider = 40*'*'+'\n'
 header = 80*'#'
 
 def generate_user_prompt(requested_content, iterable):
