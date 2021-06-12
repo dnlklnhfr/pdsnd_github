@@ -2,7 +2,7 @@
 2021-06-12
 
 ### Project Title
-Replace the Project Title
+Just some example project
 
 ### Description
 Describe what your project is about and what it does
