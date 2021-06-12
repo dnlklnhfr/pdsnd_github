@@ -271,6 +271,7 @@ def main():
         
         choice = input()
         if(choice.lower() == 'i'):
+            pd.set_option('display.max_columns',200)
             print('\n\nDisplaying five rows of raw data based on your filters ...')
             print('For next five rows hit \'Enter\', to Exit enter anything and confirm\n')
             print('Available rows:\t{}\n'.format(len(df.index)))
