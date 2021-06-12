@@ -5,7 +5,7 @@
 Just some example project
 
 ### Description
-Describe what your project is about and what it does
+the previous python project to showcase the usage of git
 
 ### Files used
 Include the files used
