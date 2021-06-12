@@ -35,7 +35,7 @@ divider = 40*'-'+'\n'
 header = 80*'#'
 
 def generate_user_prompt(requested_content, iterable):
-    ''' Consolidated user prompt to gather the information about the users filter preferences
+    """ Consolidated user prompt to gather the information about the users filter preferences
     
     Parameters:
         (str)  requested_content - the topic the user is asked to choose, e.g. 'city'
@@ -43,7 +43,7 @@ def generate_user_prompt(requested_content, iterable):
 
     Returns:
         (str) user_input - the choice the user entered, if it was a valid input
-    '''
+    """
     
     prompt_text = 'Please select a {} by abbreviation: \n'.format(requested_content)
     for key, value in iterable.items():
@@ -69,9 +69,9 @@ def generate_user_prompt(requested_content, iterable):
 
             
 def clear():
-    ''' Clear the console output (cross-platform, as I don't know on which system you guys are working)
+    """ Clear the console output (cross-platform, as I don't know on which system you guys are working)
         source: https://www.geeksforgeeks.org/clear-screen-python/
-    '''
+    """
     # for windows
     if name == 'nt':
         _ = system('cls')
