@@ -2,7 +2,7 @@
 2021-06-12
 
 ### Project Title
-Just some example project
+Analysis of an American bikeshare dataset
 
 ### Description
 the previous python project to showcase the usage of git
