@@ -31,7 +31,7 @@ days   = { 'mo': 'Monday',
          }
 exit_command = 'exit'
 exit_message = '\nExiting script ...\n\nByebye, see you next time ;)'
-divider = 40*'-'+'\n'
+divider = 40*'*'+'\n'
 header = 80*'#'
 
 def generate_user_prompt(requested_content, iterable):
@@ -264,13 +264,14 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        print('\nWould you like to do now? Choose one of the following options: \n')
+        print('\nWhat would you like to do now? Choose one of the following options: \n')
         print('n:\tNew analysis')
         print('i:\tInspect (prefiltered) raw data')
         print('e:\tExit')
         
         choice = input()
         if(choice.lower() == 'i'):
+            pd.set_option('display.max_columns',200)
             print('\n\nDisplaying five rows of raw data based on your filters ...')
             print('For next five rows hit \'Enter\', to Exit enter anything and confirm\n')
             print('Available rows:\t{}\n'.format(len(df.index)))
